@@ -6,14 +6,14 @@ navatar/heroes/controller/HeroesController.java
  navatar.heroes.controller.HeroesController$1$1
  navatar.heroes.controller.HeroesController$1$2
  navatar.heroes.controller.HeroesController$1$3
+navatar/heroes/HeroesApplication.java
+ navatar.heroes.HeroesApplication
 navatar/heroes/controller/Test2Controller.java
  navatar.heroes.controller.Test2Controller
  navatar.heroes.controller.Test2Controller$1
  navatar.heroes.controller.Test2Controller$1$1
  navatar.heroes.controller.Test2Controller$1$2
  navatar.heroes.controller.Test2Controller$1$3
-navatar/heroes/HeroesApplication.java
- navatar.heroes.HeroesApplication
 navatar/heroes/controller/MessageController.java
  navatar.heroes.controller.MessageController
  navatar.heroes.controller.MessageController$1
