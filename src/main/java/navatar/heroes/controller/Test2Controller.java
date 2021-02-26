@@ -15,9 +15,9 @@ public class Test2Controller {
     private int counter = 4;
 
     private List<Map<String , String>> test2Messages = new ArrayList<>(){{
-        add(new HashMap<String , String >() {{put("id","1"); put("text","firstSecond");}});
-        add(new HashMap<String , String >() {{put("id","2"); put("text","firstSecond");}});
-        add(new HashMap<String , String >() {{put("id","3"); put("text","firstSecond");}});
+        add(new HashMap<>() {{put("id","1"); put("text","firstSecond");}});
+        add(new HashMap<>() {{put("id","2"); put("text","firstSecond");}});
+        add(new HashMap<>() {{put("id","3"); put("text","firstSecond");}});
     }};
 
     @GetMapping

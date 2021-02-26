@@ -14,9 +14,9 @@ import java.util.Map;
 public class HeroesController {
 
     public List<Map<String, String>> heroesList = new ArrayList<>(){{
-        add(new HashMap<String,String>() {{ put ("id","1"); put ("text", "firstName"); }});
-        add(new HashMap<String,String>() {{ put ("id","2"); put ("text", "firstName"); }});
-        add(new HashMap<String,String>() {{ put ("id","3"); put ("text", "firstName"); }});
+        add(new HashMap<>() {{ put ("id","1"); put ("text", "firstName"); }});
+        add(new HashMap<>() {{ put ("id","2"); put ("text", "firstName"); }});
+        add(new HashMap<>() {{ put ("id","3"); put ("text", "firstName"); }});
     }};
 
     @GetMapping

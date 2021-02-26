@@ -13,9 +13,9 @@ import java.util.Map;
 public class TestController {
 
     public List<Map<String,String>> testMessage = new ArrayList<>(){{
-        add(new HashMap<String,String>() {{ put ("id", "1");  put("text","First Message");}});
-        add(new HashMap<String,String>() {{ put ("id", "2");  put("text","First Message");}});
-        add(new HashMap<String,String>() {{ put ("id", "3");  put("text","First Message");}});
+        add(new HashMap<>() {{ put ("id", "1");  put("text","First Message");}});
+        add(new HashMap<>() {{ put ("id", "2");  put("text","First Message");}});
+        add(new HashMap<>() {{ put ("id", "3");  put("text","First Message");}});
     }};
 
     @GetMapping
